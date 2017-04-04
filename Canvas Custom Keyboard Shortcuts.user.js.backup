@@ -14,12 +14,10 @@ Mousetrap.bind('1', function() {console.log('1 worked');});    // Basic Example
 Mousetrap.bind('2', function() {alert('2 worked');});  // Alert Example
 */
 
-// Global Navigation Shortcuts
 Mousetrap.bind('0', function() {alert('Keyboard Shortcuts:');}); // Show an alert
 Mousetrap.bind('1', function() {document.getElementById("global_nav_profile_link").click();}); // Toggle Account Drawer
 Mousetrap.bind('2', function() {document.getElementById("global_nav_accounts_link").click();}); // Toggle Admin Drawer
-
-// alert('Keyboard Shortcuts Enabled! Use "0" for help.'); // debugging
+alert('Keyboard Shortcuts Enabled! Use "0" for help.');
 
 // For later
 /*
